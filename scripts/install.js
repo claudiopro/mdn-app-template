@@ -1,4 +1,5 @@
-var manifest_url = basepath(location.href) + 'manifest.webapp';
+//var manifest_url = basepath(location.href) + 'manifest.webapp';
+var manifest_url = location.href + 'manifest.webapp';
 
 function basepath(path) {
   // make sure we omit path segments that do not map to directories
